@@ -90,7 +90,7 @@ public class CreateAccount extends AppCompatActivity {
         doctorPassword1 = findViewById(R.id.doctorPassword1);
         doctorPassword2 = findViewById(R.id.doctorPassword2);
         doctorButton = findViewById(R.id.doctorButton);
-
+        doctorRole = "Surgeon"
 
 
         // Initializing the firstbase object
