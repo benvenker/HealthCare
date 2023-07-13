@@ -5,6 +5,7 @@ public class Consultation {
     String doctorEmail;
     String patientEmail;
     String personalEmail;
+    String adultEmail;
     String disease;
     String date;
     String price;
@@ -49,6 +50,10 @@ public class Consultation {
 
     public void setPersonalEmail(String personalEmail) {
         this.personalEmail = personalEmail;
+    }
+
+    public void setAdultEmail(String adultEmail) {
+        this.adultEmail = adultEmail;
     }
 
     public String getDisease() {
